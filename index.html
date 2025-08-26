@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Electra Canada</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+         <!-- Favicon -->
+        <link href="img/icon.ico" rel="icon">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid header-top">
+            <div class="container d-flex align-items-center">
+                <div class="d-flex align-items-center h-100">
+                    <a href="#" class="navbar-brand" style="height: 125px;">
+                        <h1 class="text-primary mb-0"><i class="fas fa-bolt"></i> Electra</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                </div>
+                <div class="w-100 h-100">
+                    <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-8 text-center text-lg-center mb-lg-0">
+                                <div class="d-flex flex-wrap">
+                                    <div class="border-end border-primary pe-3">
+                                        <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Trouver une agence</a>
+                                    </div>
+                                    <div class="ps-3">
+                                        <a href="mailto:contact@electra.ca" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>contact@electra.ca</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 text-center text-lg-end">
+                                <div class="d-flex justify-content-end">
+                                    <div class="d-flex border-end border-primary pe-3">
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                        <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                    <div class="dropdown ms-3">
+                                        <a href="#" class="dropdown-toggle text-white" data-bs-toggle="dropdown"><small class="text-body"><i class="fas fa-globe-europe text-primary me-2"></i> English</small></a>
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">English</a>
+                                            <a href="#" class="dropdown-item">Bangla</a>
+                                            <a href="#" class="dropdown-item">French</a>
+                                            <a href="#" class="dropdown-item">Spanish</a>
+                                            <a href="#" class="dropdown-item">Arabic</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
+                            <a href="#" class="navbar-brand-2">
+                                <h1 class="text-primary mb-0"><i class="fas fa-bolt"></i> Electra</h1>
+                                <!-- <img src="img/logo.png" alt="Logo"> -->
+                            </a>  
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <div class="navbar-nav mx-0 mx-lg-auto bg-white">
+                                    <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                                    <a href="#about" class="nav-item nav-link">À propos</a>
+                                    <a href="#service" class="nav-item nav-link">Services</a>
+                                    <a href="#blog" class="nav-item nav-link">Actualités</a>
+                                    <div class="nav-item dropdown">
+                                        <!-- <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Pages</span>
+                                        </a>
+                                         <div class="dropdown-menu">
+                                            <a href="project.html" class="dropdown-item">Nos projets</a>
+                                            <a href="team.html" class="dropdown-item">Notre équipe</a>
+                                            <a href="testimonial.html" class="dropdown-item">Témoignages</a>
+                                            <a href="404.html" class="dropdown-item">404 Page</a>
+                                        </div>
+                                    </div> --> 
+                                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                                    <div class="nav-btn ps-3">
+                                        <!-- <button class="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
+                                        <a href="https://yellow-pebble-0d33cd20f.6.azurestaticapps.net/tcm-page?API_KEY=tcmGnwutCElj2hTmKfVd53kkyiY6irJZfaQ6S3dbiv6ik3RHxvoBvYTQehuRzIlv" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3"  aria-label="ouvrir le chatbot" target="_blank"> Demander un devis</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <!-- <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center bg-primary">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Modal Search End -->
+
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel overflow-hidden">
+            <div class="header-carousel-item hero-section">
+                <div class="hero-bg-half-1"></div>
+                <div class="hero-shape-1"></div>
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-7 animated fadeInLeft">
+                                <div class="text-sm-center text-md-start">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4">Services électriques modernes</h4>
+                                    <h1 class="display-2 text-white mb-4">De l’énergie fiable pour tous vos besoins</h1>
+                                    <p class="mb-5 fs-5">Chez Électra Canada, nous proposons des solutions électriques durables et sécuritaires pour vos projets résidentiels, commerciaux et industriels. 
+                                    </p>
+                                    <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
+                                        <a class="btn btn-light py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Regarder la vidéo</a>
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">En savoir plus</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item hero-section">
+                <div class="hero-bg-half-2"></div>
+                <div class="hero-shape-2"></div>
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-7 animated fadeInLeft">
+                                <div class="text-sm-center text-md-start">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4">Services électriques modernes</h4>
+                                    <h1 class="display-2 text-white mb-4">Découvrez la puissance de notre expertise</h1>
+                                    <p class="mb-5 fs-5">Chez Électra Canada, nous proposons des solutions électriques durables et sécuritaires pour vos projets résidentiels, commerciaux et industriels. 
+                                    </p>
+                                    <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
+                                        <a class="btn btn-light py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Regarder la vidéo</a>
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">En savoir plus</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- À propos Start -->
+        <div class="container-fluid about py-5" id="about">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="h-100">
+                            <h4 class="text-primary">À propos de nous</h4>
+                            <h1 class="display-4 mb-4">Nous vous offrons des services électriques de qualité supérieure</h1>
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6">
+                                   <a href="#" class="d-flex">
+                                    <span class="fas fa-bolt fa-3x me-3"></span>
+                                    <h4 class="mb-0">Systèmes d'alimentation de secours</h4>
+                                </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#" class="d-flex">
+                                        <span class="fas fa-broadcast-tower fa-3x me-3"></span>
+                                        <h4 class="mb-0">Conception électrique sur mesure</h4>
+                                    </a>
+                                </div>
+                                </div>
+                                <p class="mb-4">Notre expertise s'adapte à tous vos projets, qu'ils soient résidentiels, commerciaux ou industriels. Nous combinons innovation technique et savoir-faire pour garantir des installations électriques performantes, sécurisées et optimisées pour vos besoins spécifiques.
+                                </p>
+                                <div class="text-dark mb-4">
+                                    <p class="fs-5"><span class="fa fa-check text-primary me-2"></span> Installation, maintenance et dépannage de vos systèmes d'éclairage</p>
+                                    <p class="fs-5"><span class="fa fa-check text-primary me-2"></span> Solutions énergétiques économiques pour réduire votre consommation</p>
+                                    <p class="fs-5"><span class="fa fa-check text-primary me-2"></span> Protection optimisée de vos équipements électriques</p>
+                                </div>
+                                <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Demander un devis</a>
+                                </div>
+                    </div>
+                    <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="position-relative h-100">
+                            <img src="img/about-1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
+                            <div class="bg-white">
+                                <div class="position-absolute pt-3 bg-white" style="width: 50%; left: 0; bottom: 0;">
+                                    <div class="bg-primary p-4">
+                                        <h4 class="display-2 mb-0">25+</h4>
+                                        <p class="text-white fs-5 mb-0">années d’expérience</p>
+                                    </div>
+                                </div>
+                                <div class="position-absolute p-3 bg-white pb-0 pe-0" style="width: 50%; bottom: 0; right: 0;">
+                                    <img src="img/about-2.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- À propos End -->
+
+
+        <!-- Banner Start -->
+         <div class="container-fluid banner py-5 wow zoomIn" data-wow-delay="0.2s">
+            <div class="banner-design-1"></div>
+            <div class="banner-design-2"></div>
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="">
+                            <h4 class="text-white">Contactez-nous</h4>
+                            <h1 class="display-4 text-white mb-0">Nous offrons des services électriques professionnels à nos clients</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-center justify-content-lg-end h-100">
+                            <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- Banner End -->
+
+
+        <!-- Servicess Start -->
+        <div class="container-fluid service py-5" id="service">
+            <div class="container py-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Nos services</h4>
+                    <h1 class="display-4 mb-4">Des solutions électriques sur mesure</h1>
+                    <p class="mb-0">Expertise technique, intervention rapide et solutions innovantes pour tous vos projets électriques. De l'installation résidentielle aux complexes industriels, notre équipe certifiée vous accompagne avec professionnalisme.
+                    </p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-3 wow fadeInLeft" data-wow-delay="0.2s">
+                        <ul class="nav">
+                            <li class="nav-item me-lg-0 mb-4">
+                                <a class="py-3 px-5 active" data-bs-toggle="pill" href="#ServicesTab-1">
+                                    <span>Commercial</span>
+                                </a>
+                            </li>
+                            <li class="nav-item me-lg-0 mb-4">
+                                <a class="py-3 px-5" data-bs-toggle="pill" href="#ServicesTab-2">
+                                    <span>Résidentiel</span>
+                                </a>
+                            </li>
+                            <li class="nav-item me-lg-0 mb-4 mb-lg-0">
+                                <a class="py-3 px-5" data-bs-toggle="pill" href="#ServicesTab-3">
+                                    <span>Industriel</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="tab-content">
+                            <div id="ServicesTab-1" class="tab-pane fade show p-0 active">
+                                <div class="service-carousel owl-carousel">
+                                    <div class="service-item">
+                                        <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="Installation éclairage commercial">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Éclairage commercial sur mesure</h4>
+                                            <p class="mb-4">Conception et installation de solutions d'éclairage performantes pour bureaux, commerces et espaces publics. Optimisation énergétique et ambiance lumineuse adaptée à votre activité.
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Découvrir</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="Bornes recharge véhicules électriques">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Bornes de recharge VE</h4>
+                                            <p class="mb-4">Installation professionnelle de bornes de recharge pour véhicules électriques. Conseil, installation et mise en service pour entreprises souhaitant offrir ce service essentiel.
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">En savoir plus</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/commercial-3.jpg" class="img-fluid w-100" alt="Sécurité incendie commerciale">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Sécurité incendie et alarmes</h4>
+                                            <p class="mb-4">Systèmes de détection incendie et alarmes conformes aux normes les plus strictes. Installation, maintenance et tests réguliers pour assurer la sécurité de vos locaux.
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Nos solutions</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ServicesTab-2" class="tab-pane fade show p-0">
+                                <div class="service-carousel owl-carousel">
+                                    <div class="service-item">
+                                        <img src="img/residential-1.jpg" class="img-fluid w-100" alt="Mise aux normes électriques">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Mise aux normes résidentielle</h4>
+                                            <p class="mb-4">Modernisation complète de votre installation électrique. Remplacement du panneau, mise à terre et installation de disjoncteurs différentiels pour une sécurité optimale de votre foyer.
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Découvrir</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/residential-2.jpg" class="img-fluid w-100" alt="Éclairage résidentiel design">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Éclairage résidentiel design</h4>
+                                            <p class="mb-4">Création d'ambiances lumineuses sur mesure pour valoriser votre intérieur. Installation de lustres, spots LED, éclairage extérieur et solutions domotiques pour un confort optimal.
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">En savoir plus</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/residential-3.jpg" class="img-fluid w-100" alt="Dépannage électrique urgent">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Dépannage et urgences 24/7</h4>
+                                            <p class="mb-4">Intervention rapide 7j/7 pour toutes pannes électriques. Diagnostic précis, réparation efficace et conseils personnalisés pour prévenir les problèmes futurs. Service disponible 24h/24.
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Nos solutions</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ServicesTab-3" class="tab-pane fade show p-0">
+                                <div class="service-carousel owl-carousel">
+                                    <div class="service-item">
+                                        <img src="img/industrial-1.jpg" class="img-fluid w-100" alt="Automatismes industriels">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Automatismes industriels</h4>
+                                            <p class="mb-4">Conception et installation de systèmes automatisés pour optimiser vos processus de production. Programmation de PLC, variateurs de vitesse et interfaces homme-machine sur mesure.
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Découvrir</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/industrial-2.jpg" class="img-fluid w-100" alt="Systèmes de puissance industrielle">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Systèmes de puissance</h4>
+                                            <p class="mb-4">Installation et maintenance de tableaux électriques industriels, armoires de distribution et systèmes de gestion d'énergie. Solutions robustes pour environnements exigeants.
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">En savoir plus</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/industrial-3.jpg" class="img-fluid w-100" alt="Maintenance préventive industrielle">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Maintenance préventive</h4>
+                                            <p class="mb-4">Programmes de maintenance sur mesure pour garantir la continuité de service. Contrôles thermographiques, mesures d'isolement et analyses préventives complètes pour éviter les pannes.
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Nos solutions</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Servicess End -->
+
+        <!-- Projects Start -->
+        <div class="container-fluid projects bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Nos projets</h4>
+                            <h1 class="display-4 mb-4">Découvrez nos réalisations électriques au Canada</h1>
+                            <p class="mb-5">Notre portfolio témoigne de notre expertise diversifiée dans tous les secteurs de l'électricité. De la rénovation résidentielle aux complexes projets industriels, chaque réalisation reflète notre engagement envers l'excellence.</p>
+                            <ul class="nav">
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3 active" data-bs-toggle="pill" href="#ProjectsTab-1">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-bolt small"></span></div><span>Installations résidentielles</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-2">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-charging-station small"></span></div><span>Solutions commerciales</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-3">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-broadcast-tower small"></span></div><span>Projets industriels</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-4">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-solar-panel small"></span></div><span>Énergies renouvelables</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="tab-content">
+                            <div id="ProjectsTab-1" class="tab-pane fade show p-0 active">
+                                <div class="projects-item">
+                                    <img src="img/industrial-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-3">Installations résidentielles</h4>
+                                        <p class="mb-4">Nous transformons les habitations avec des installations électriques sécuritaires et modernes. Nos interventions incluent la mise aux normes, l'installation de panneaux intelligents, l'éclairage design et la domotique résidentielle pour un confort optimal.
+                                        </p>
+                                        <a class="btn btn-primary py-2 px-4" href="#">Voir nos réalisations</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ProjectsTab-2" class="tab-pane fade show p-0">
+                                <div class="projects-item">
+                                    <img src="img/industrial-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-3">Solutions commerciales</h4>
+                                        <p class="mb-4">Nous équipons les espaces commerciaux avec des systèmes électriques performants et économes en énergie. De l'éclairage commercial aux réseaux complexes, en passant par les bornes de recharge et les systèmes de sécurité électrique.
+                                        </p>
+                                        <a class="btn btn-primary py-2 px-4" href="#">Voir nos réalisations</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ProjectsTab-3" class="tab-pane fade show p-0">
+                                <div class="projects-item">
+                                    <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-3">Projets industriels</h4>
+                                        <p class="mb-4">Expertise technique avancée pour les environnements industriels exigeants. Installation de systèmes de puissance, automatismes industriels, tableaux de distribution et solutions sur mesure pour répondre aux normes les plus strictes.
+                                        </p>
+                                        <a class="btn btn-primary py-2 px-4" href="#">Voir nos réalisations</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ProjectsTab-4" class="tab-pane fade show p-0">
+                                <div class="projects-item">
+                                    <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-4">Énergies renouvelables</h4>
+                                        <p class="mb-4">Solutions vertes pour un avenir énergétique durable. Installation de systèmes photovoltaïques, bornes de recharge pour véhicules électriques, solutions d'optimisation énergétique et intégration des énergies renouvelables aux réseaux existants.
+                                        </p>
+                                        <a class="btn btn-primary py-2 px-4" href="#">Voir nos réalisations</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+        <!-- Actualités Start -->
+        <div class="container-fluid blog py-5" id="blog">
+            <div class="container py-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Nos actualités</h4>
+                    <h1 class="display-4 mb-4">Nouvelles et mises à jour électriques</h1>
+                    <p class="mb-0">Restez informé des dernières innovations, tendances et réglementations dans le domaine de l'électricité. Notre équipe partage régulièrement son expertise pour vous aider à mieux comprendre les enjeux énergétiques contemporains.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Les nouvelles normes électriques 2024 : ce qui change</a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> 15 mars 2024</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Réglementation</p>
+                                </div>
+                                <p class="mb-4">Découvrez les dernières modifications apportées au code canadien de l'électricité et leurs implications pour les propriétaires résidentiels et commerciaux. Mise à jour essentielle pour la sécurité et la conformité.
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Lire l'article</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Bornes de recharge : guide d'installation</a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> 28 février 2024</p>
+                                    <p class="fa-tag me-2"></i> Technologie</p>
+                                </div>
+                                <p class="mb-4">Tout savoir sur l'installation de bornes de recharge pour véhicules électriques. De la sélection du matériel aux subventions disponibles, notre guide complet pour une transition réussie vers la mobilité électrique.
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Lire l'article</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/commercial-3.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Économies d'énergie : nos solutions innovantes</a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> 12 février 2024</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Éco-énergie</p>
+                                </div>
+                                <p class="mb-4">Découvrez comment optimiser votre consommation électrique grâce à nos solutions intelligentes. Des dispositifs modernes qui réduisent votre facture énergétique tout en minimisant l'impact environnemental.
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Lire l'article</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Actualités End -->
+
+        <!-- Team Start -->
+        <div class="container-fluid team pb-5">
+            <div class="container pb-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Notre équipe</h4>
+                    <h1 class="display-4 mb-4">Des experts passionnés par l'électricité</h1>
+                    <p class="mb-0">Notre équipe d'électriciens certifiés combine expertise technique et savoir-faire artisanal pour répondre à tous vos besoins électriques. Chaque membre apporte sa spécialité pour vous offrir un service complet et de qualité.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Thomas Leroy</h4>
+                                <p class="mb-0">Expert en installations résidentielles</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Merlin Dubois</h4>
+                                <p class="mb-0">Spécialiste éclairage design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Marc Tremblay</h4>
+                                <p class="mb-0">Technicien systèmes industriels</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Julie Moreau</h4>
+                                <p class="mb-0">Chef de projet installations commerciales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Témoignages Start -->
+        <div class="container-fluid testimonial bg-dark py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 col-xl-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <h4 class="text-primary">Témoignages</h4>
+                        <h1 class="display-4 text-white mb-4">La confiance de nos clients canadiens</h1>
+                        <p class="mb-4">Nous mettons notre expertise au service de vos projets, qu'ils soient résidentiels, commerciaux ou industriels. Notre engagement envers l'excellence et la satisfaction client fait de nous le partenaire de choix pour tous vos besoins électriques.
+                        </p>
+                        <a class="btn btn-light py-3 px-5" href="#">Voir tous les avis</a>
+                    </div>
+                    <div class="col-lg-6 col-xl-7 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="testimonial-item">
+                                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                                </div>
+                                <div class="testimonial-inner p-4">
+                                    <img src="img/testimonial-1.jpg" class="img-fluid" alt="">
+                                    <div class="ms-4">
+                                        <h4>Marc Tremblay</h4>
+                                        <p>Propriétaire résidentiel</p>
+                                        <div class="d-flex text-primary">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-text p-4">
+                                    <p class="mb-0">Intervention rapide et professionnelle pour une panne électrique. Le technicien a expliqué clairement le problème et la solution. Travail soigné et tarif très raisonnable. Je recommande vivement leurs services!</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                                </div>
+                                <div class="testimonial-inner p-4">
+                                    <img src="img/testimonial-2.jpg" class="img-fluid" alt="">
+                                    <div class="ms-4">
+                                        <h4>Sophie Leroux</h4>
+                                        <p>Gérante de commerce</p>
+                                        <div class="d-flex text-primary">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star text-body"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-text p-4">
+                                    <p class="mb-0">Nous avons fait appel à leurs services pour l'installation électrique de notre nouveau restaurant. Respect des délais et du budget, avec une expertise remarquable pour les normes commerciales. Service impeccable!</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                                </div>
+                                <div class="testimonial-inner p-4">
+                                    <img src="img/testimonial-3.jpg" class="img-fluid" alt="">
+                                    <div class="ms-4">
+                                        <h4>David Moreau</h4>
+                                        <p>Directeur d'usine</p>
+                                        <div class="d-flex text-primary">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star text-body"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-text p-4">
+                                    <p class="mb-0">Prestation exceptionnelle pour la maintenance de notre système électrique industriel. Équipe compétente, équipement moderne et respect strict des protocoles de sécurité. Un partenaire de confiance pour nos installations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Témoignages End -->
+
+
+        <!-- FAQ Start -->
+         <!-- <div class="container-fluid faq-section bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <h4 class="text-primary">Questions fréquentes</h4>
+                        <h1 class="display-4 mb-4">Vos questions les plus courantes</h1>
+                        <p class="mb-4">Nous mettons notre expertise au service de vos projets, qu’ils soient résidentiels, commerciaux ou industriels. Eveniet pariatur sapiente, modi perspiciatis earum ab inventore vitae consequatur tempore quibusdam?
+                        </p>
+                        <a class="btn btn-primary py-3 px-5" href="#">Vous avez des questions</a>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="h-100">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Q: How Do I Sing Up For Your Electricity Servicess?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show active" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Q: What Types Of Electricity Plans Do You Offer?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Q: What Are Your Billing And Payment Options?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Q: How Can I Track My Energy Usage With Your Servicess?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div> -->
+        <!-- FAQ End -->
+
+        
+<!-- Rendez-vous Section Start -->
+<div class="container-fluid py-5 bg-light wow fadeInUp" id="rendezvous">
+    <div class="container py-5 text-center">
+        
+        <!-- Titre -->
+        <h3 class="display-4 fw-bold text-primary mb-5 wow fadeInUp">
+            RÉSERVER MAINTENANT
+        </h3>
+        
+        <!-- Contenu principal -->
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
+            
+            <!-- Image Robot -->
+            <div class="me-4 mb-3 mb-md-0 wow fadeInLeft">
+                <img src="img/robot2.png" alt="Assistant virtuel" 
+                     style="width: 380px; height: auto;">
+            </div>
+            
+            <!-- Texte + Bouton -->
+            <div class="d-flex flex-column justify-content-between text-start wow fadeInRight" style="max-width: 500px; height: 380px;">
+                <p class="mb-3 fs-5" style="line-height: 1.5; font-size: 1.2rem; text-justify: inter-word; text-align: justify; word-wrap: break-word;">
+                    Discutez instantanément avec notre assistant virtuel 🤖 et profitez d’un support personnalisé, disponible 24h/24 et 7j/7.  
+                    Il est là pour répondre à toutes vos questions, vous guider étape par étape et vous aider à trouver les solutions les plus adaptées à vos besoins.
+                    <br>    
+                    <strong>Commencez votre expérience dès aujourd’hui et laissez notre assistant virtuel transformer votre manière de réserver et d’interagir !</strong>
+                </p>
+                
+                <!-- Bouton décalé vers le bas -->
+                <div class="mt-auto d-flex justify-content-center">
+                    <button class="btn btn-primary px-7 py-4 rounded-pill">
+                        <i class="fas fa-robot me-2"></i> Lancer la discussion
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Rendez-vous Section End -->
+
+<!-- Localisation Section Start -->
+<div class="container-fluid p-0 wow fadeInUp" id="localisation">
+    <h2 class="text-center py-4 bg-primary text-white">NOTRE LOCALISATION</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.927827389812!2d-73.56725618444255!3d45.501688279101776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a4416a0019d%3A0x6e3a0b6c5a0b1c57!2sMontr%C3%A9al%2C%20QC%2C%20Canada!5e0!3m2!1sen!2sca!4v1673456789012!5m2!1sen!2sca" 
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<!-- Localisation Section End -->
+
+
+<!-- Footer Start -->
+        <div class="container-fluid footer bg-dark py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5 mb-5 align-items-center">
+                    <div class="col-lg-7">
+                        <div class="position-relative mx-auto">
+                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Email address to Subscribe">
+                            <button type="button" class="btn btn-primary position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                            <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h3 class="text-white mb-4"><i class="fas fa-bolt text-primary me-3"></i>Electra</h3>
+                                <p class="mb-3">Électra Canada, votre partenaire de confiance pour tous vos besoins électriques. Nous vous accompagnons avec fiabilité et professionnalisme.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Liens rapides</h4>
+                            <a href="#"> Accueil</a>
+                            <a href="#"> À propos</a>
+                            <a href="#"> Services</a>
+                            <a href="#"> Témoignages</a>
+                            <a href="#"> Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Services électriques</h4>
+                            <a href="#"> Climatisation</a>
+                            <a href="#"> Tableaux électriques</a>
+                            <a href="#"> Système de sécurité</a>
+                            <a href="#"> Éclairage intérieur</a>
+                            <a href="#"> Services électriques</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Coordonnées</h4>
+                            <a href="#"><i class="fa fa-map-marker-alt text-primary me-2"></i> 123 Street, New York, USA</a>
+                            <a href="mailto:info@example.com"><i class="fas fa-envelope text-primary me-2"></i> info@example.com</a>
+                            <a href="mailto:info@example.com"><i class="fas fa-envelope text-primary me-2"></i> info@example.com</a>
+                            <a href="tel:+012 345 67890"><i class="fas fa-phone text-primary me-2"></i> +012 345 67890</a>
+                            <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print text-primary me-2"></i> +012 345 67890</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Électra Canada</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="https://embed.quebotia.com/js/chatbot-bundle.min.js"></script>
+        <script>
+            // Initialize the chatbot widget
+            TCMChatbot.init({
+                company_name: "Demo Company",
+                TCM_API_KEY: "tcmGnwutCElj2hTmKfVd53kkyiY6irJZfaQ6S3dbiv6ik3RHxvoBvYTQehuRzIlv",
+                headerColor: "#007bff",
+                sendButtonColor: "#28a745",
+                label: "Écrivez votre message...",
+                pageLink: "/chat-demo",
+                height: '600px',
+                width : '400px'
+            });
+        </script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

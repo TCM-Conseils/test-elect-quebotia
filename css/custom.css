@@ -1,0 +1,47 @@
+
+/* --- Custom Styles for Rendez-vous & Localisation Sections --- */
+
+#rendezvous {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    border-top: 4px solid #0d6efd;
+    border-bottom: 4px solid #0d6efd;
+}
+
+#rendezvous h2 {
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+#rendezvous p {
+    font-size: 1rem;
+    color: #333;
+}
+
+#rendezvous button {
+    transition: all 0.3s ease;
+}
+
+#rendezvous button:hover {
+    background-color: #fff;
+    color: #0d6efd;
+    border: 2px solid #0d6efd;
+}
+
+#localisation h2 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#localisation iframe {
+    filter: grayscale(20%) contrast(110%);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #rendezvous .d-flex {
+        flex-direction: column;
+    }
+    #rendezvous img {
+        margin: 15px 0;
+    }
+}

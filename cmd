@@ -1,0 +1,5 @@
+prompt: SALUT Mon pote je t'enverrai un code que tu dois ameliorer:
+en fait tu dois ameliorer le texte le traduire en francais
+creer une section avec pour titre"prendre un rendez-vous  " oubien "reservez maintenant ". En bas de ce titre on dois avoir  une petite images de robot image a gauche et droite de celui-ci un mini texte comme pas exemple"discuter des manitenant avec notre assistant virtuel" directement de ce texte on doit avoir un boutton de lancement de la discussion avec le chatbot(petite precision le bouttonest representer par la tete d'un robot) et trouver un bon emplacement pour placer la localisation avec pour titre "NOTRE LOCALISATION" elle dois prendre la largeur de la page et il faut utilise un <iframe></iframe>
+
+NB: il s'agit d'un site qui sera utilise en particulier au canada donc cei aussi en compte
